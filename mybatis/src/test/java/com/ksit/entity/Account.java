@@ -5,6 +5,22 @@ public class Account {
 	private String userName;
 	private String address;
 	private String password;
+	private int deptId;
+	private Dept dept;
+	
+	
+	public int getDeptId() {
+		return deptId;
+	}
+	public void setDeptId(int deptId) {
+		this.deptId = deptId;
+	}
+	public Dept getDept() {
+		return dept;
+	}
+	public void setDept(Dept dept) {
+		this.dept = dept;
+	}
 	public int getId() {
 		return id;
 	}

@@ -18,6 +18,7 @@ import com.ksit.utils.MyBatisUtil;
 public class MyBatisTest {
 	private Logger logger = LoggerFactory.getLogger(MyBatisTest.class);
 	
+	
 	@Test
 	public void first() {
 		 //1.╪стьеДжцнд╪Ч

@@ -10,6 +10,7 @@ public interface AccountMapper {
 	void deleteById(Integer id);
 	void modify(Account acc);
 	List<Account> findAll();
+	List<Account> findAllLoadDept();
 	
 	
 	
